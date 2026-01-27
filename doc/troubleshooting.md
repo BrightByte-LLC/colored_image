@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-This guide helps you resolve common issues when using the Advanced Image Color package.
+This guide helps you resolve common issues when using the Colored Image package.
 
 ## Common Issues
 
@@ -169,7 +169,7 @@ environment:
 
 3. **Verify imports:**
 ```dart
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 import 'package:flutter/material.dart';
 ```
 
@@ -303,7 +303,7 @@ Row(
 
 If you've tried the solutions above and still have issues:
 
-1. **Check existing issues:** Visit [GitHub Issues](https://github.com/yourusername/advanced_image_color/issues)
+1. **Check existing issues:** Visit [GitHub Issues](https://github.com/yourusername/colored_image/issues)
 2. **Create a new issue** with:
    - Flutter version (`flutter --version`)
    - Package version
@@ -314,7 +314,7 @@ If you've tried the solutions above and still have issues:
 3. **Provide a reproducible example:**
 ```dart
 import 'package:flutter/material.dart';
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 void main() => runApp(
   MaterialApp(

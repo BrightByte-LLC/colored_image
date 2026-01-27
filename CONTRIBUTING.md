@@ -1,11 +1,11 @@
-# Contributing to Advanced Image Color
+# Contributing to Colored Image
 
-Thank you for your interest in contributing to Advanced Image Color! This document provides guidelines for contributing to the project.
+Thank you for your interest in contributing to Colored Image! This document provides guidelines for contributing to the project.
 
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/yourusername/advanced_image_color.git`
+2. Clone your fork: `git clone https://github.com/yourusername/colored_image.git`
 3. Create a new branch: `git checkout -b feature/your-feature-name`
 4. Make your changes
 5. Run tests: `flutter test`
@@ -124,7 +124,7 @@ Any other context or screenshots
 ## Questions?
 
 If you have questions, feel free to:
-- Open an issue with the "question" label
+- Open an issue with the "question" label on https://github.com/yourusername/colored_image/issues
 - Start a discussion in GitHub Discussions
 - Reach out to the maintainers
 

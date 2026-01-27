@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get up and running with Advanced Image Color in 5 minutes!
+Get up and running with Colored Image in 5 minutes!
 
 ## Installation
 
@@ -8,7 +8,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  advanced_image_color: ^1.0.0
+  colored_image: ^1.0.0
 ```
 
 Run:
@@ -23,7 +23,7 @@ flutter pub get
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 ```
 
 ### 2. Color a Single Image
@@ -56,7 +56,7 @@ Create a new Flutter app and replace `lib/main.dart` with:
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 void main() => runApp(MyApp());
 
@@ -73,7 +73,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Advanced Image Color Demo'),
+          title: Text('Colored Image Demo'),
         ),
         body: Center(
           child: Column(
@@ -316,14 +316,14 @@ RepaintBoundary(
 - Read the [API Documentation](doc/api.md) for detailed information
 - Check the [Troubleshooting Guide](doc/troubleshooting.md) if you encounter issues
 - Explore the [Example App](example/) for more complex use cases
-- Visit the [GitHub Repository](https://github.com/yourusername/advanced_image_color) to contribute
+- Visit the [GitHub Repository](https://github.com/yourusername/colored_image) to contribute
 
 ## Need Help?
 
-- [GitHub Issues](https://github.com/yourusername/advanced_image_color/issues)
+- [GitHub Issues](https://github.com/yourusername/colored_image/issues)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/flutter) with tag `advanced-image-color`
 - [Flutter Community](https://flutter.dev/community)
 
 ---
 
-That's it! You're now ready to use Advanced Image Color in your Flutter apps. Happy coding! 🎨
+That's it! You're now ready to use Colored Image in your Flutter apps. Happy coding! 🎨

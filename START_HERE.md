@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-Your **Advanced Image Color** Flutter package is now **100% ready for publication** to pub.dev!
+Your **Colored Image** Flutter package is now **100% ready for publication** to pub.dev!
 
 ---
 
@@ -42,7 +42,7 @@ Your **Advanced Image Color** Flutter package is now **100% ready for publicatio
 
 1. **README.md** - Start here to see how your package looks to users
 2. **FINAL_NOTES.md** - Complete overview and final checklist
-3. **lib/advanced_image_color.dart** - Your enhanced implementation
+3. **lib/colored_image.dart** - Your enhanced implementation
 4. **example/lib/main.dart** - Working demo application
 5. **PUBLISHING.md** - Step-by-step publishing guide
 
@@ -52,7 +52,7 @@ Your **Advanced Image Color** Flutter package is now **100% ready for publicatio
 
 ### Step 1: Create GitHub Repository
 ```bash
-cd /Volumes/UgreenـSSD/personal/package/advanced_image_color
+cd /Volumes/UgreenـSSD/personal/package/colored_image
 git init
 git add .
 git commit -m "Initial commit - v1.0.0"
@@ -60,7 +60,7 @@ git commit -m "Initial commit - v1.0.0"
 
 Then create a repository on GitHub and push:
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/advanced_image_color.git
+git remote add origin https://github.com/YOUR_USERNAME/colored_image.git
 git branch -M main
 git push -u origin main
 git tag v1.0.0
@@ -125,7 +125,7 @@ List<double> buildFolderColorMatrix(Color folderColor) {
 
 **Now available as:**
 ```dart
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 // Function (your original algorithm)
 final matrix = buildColorMatrix(Colors.blue);
@@ -143,7 +143,7 @@ ColoredImage(
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -175,8 +175,8 @@ Once published, your package will:
 ## 🎁 What's Included
 
 ### Files Created:
-1. **Main Library** (`lib/advanced_image_color.dart`) - 4 KB
-2. **Tests** (`test/advanced_image_color_test.dart`) - 7 KB
+1. **Main Library** (`lib/colored_image.dart`) - 4 KB
+2. **Tests** (`test/colored_image_test.dart`) - 7 KB
 3. **Example App** (`example/lib/main.dart`) - 11 KB
 4. **README.md** - 5 KB
 5. **Documentation** - 8 additional files
@@ -238,7 +238,7 @@ This package demonstrates:
 
 Run this to verify everything:
 ```bash
-cd /Volumes/UgreenـSSD/personal/package/advanced_image_color
+cd /Volumes/UgreenـSSD/personal/package/colored_image
 flutter test && flutter analyze && flutter pub publish --dry-run
 ```
 

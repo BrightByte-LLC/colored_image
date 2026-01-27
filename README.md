@@ -1,6 +1,6 @@
-# Advanced Image Color
+# Colored Image
 
-[![pub package](https://img.shields.io/pub/v/advanced_image_color.svg)](https://pub.dev/packages/advanced_image_color)
+[![pub package](https://img.shields.io/pub/v/colored_image.svg)](https://pub.dev/packages/colored_image)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A Flutter package for applying color tints to images while **preserving all details and luminance information**. Unlike simple color filters that can wash out details, this package uses advanced color matrix transformations to maintain the original image's brightness and detail structure.
@@ -28,7 +28,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  advanced_image_color: ^1.0.0
+  colored_image: ^1.0.0
 ```
 
 Then run:
@@ -44,7 +44,7 @@ flutter pub get
 Use the `ColoredImage` widget to apply a color tint to an image:
 
 ```dart
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 import 'package:flutter/material.dart';
 
 ColoredImage(
@@ -92,7 +92,7 @@ final paint = Paint()
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 void main() => runApp(MyApp());
 
@@ -101,7 +101,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Advanced Image Color Demo')),
+        appBar: AppBar(title: Text('Colored Image Demo')),
         body: Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -191,6 +191,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you find this package helpful, please give it a ⭐ on [GitHub](https://github.com/yourusername/advanced_image_color)!
+If you find this package helpful, please give it a ⭐ on [GitHub](https://github.com/yourusername/colored_image)!
 
-For issues, feature requests, or questions, please [open an issue](https://github.com/yourusername/advanced_image_color/issues).
+For issues, feature requests, or questions, please [open an issue](https://github.com/yourusername/colored_image/issues).

@@ -1,8 +1,8 @@
-# Advanced Image Color - Package Summary
+# Colored Image - Package Summary
 
 ## Overview
 
-**Advanced Image Color** is a Flutter package that applies color tints to images while preserving all details and luminance information. It uses advanced color matrix transformations to maintain the original image's brightness structure.
+**Colored Image** is a Flutter package that applies color tints to images while preserving all details and luminance information. It uses advanced color matrix transformations to maintain the original image's brightness structure.
 
 **Version:** 1.0.0  
 **License:** MIT  
@@ -12,7 +12,7 @@
 
 ## Package Contents
 
-### Core Library (`lib/advanced_image_color.dart`)
+### Core Library (`lib/colored_image.dart`)
 
 #### Functions
 - **`buildColorMatrix(Color color)`** - Creates a 5x4 color matrix for detail-preserving colorization
@@ -96,7 +96,7 @@
   - Integration scenarios (2 tests)
 
 ### Test Files
-- `test/advanced_image_color_test.dart` (7 KB)
+- `test/colored_image_test.dart` (7 KB)
   - Unit tests for `buildColorMatrix()`
   - Widget tests for `ColoredImage` and `ColorTintFilter`
   - Edge case testing (black, white, custom colors)
@@ -229,11 +229,11 @@ The color matrix transformation uses a luminance-preserving approach:
 ## Package Files Structure
 
 ```
-advanced_image_color/
+colored_image/
 ├── lib/
-│   └── advanced_image_color.dart (4 KB)
+│   └── colored_image.dart (4 KB)
 ├── test/
-│   └── advanced_image_color_test.dart (7 KB)
+│   └── colored_image_test.dart (7 KB)
 ├── example/
 │   ├── lib/main.dart (11 KB)
 │   ├── pubspec.yaml
@@ -272,7 +272,7 @@ advanced_image_color/
    git init
    git add .
    git commit -m "Initial commit - v1.0.0"
-   git remote add origin https://github.com/yourusername/advanced_image_color.git
+   git remote add origin https://github.com/yourusername/colored_image.git
    git push -u origin main
    ```
 
@@ -295,7 +295,7 @@ advanced_image_color/
 ## Publishing Command
 
 ```bash
-cd /Volumes/UgreenـSSD/personal/package/advanced_image_color
+cd /Volumes/UgreenـSSD/personal/package/colored_image
 flutter pub publish
 ```
 
@@ -364,7 +364,7 @@ flutter pub publish
 
 ## Conclusion
 
-The **Advanced Image Color** package is now **publication-ready** with:
+The **Colored Image** package is now **publication-ready** with:
 - Professional-grade code quality
 - Comprehensive documentation
 - Full test coverage

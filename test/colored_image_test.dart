@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 void main() {
   group('buildColorMatrix', () {

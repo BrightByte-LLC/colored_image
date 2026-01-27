@@ -1,9 +1,9 @@
-name: advanced_image_color
+name: colored_image
 description: Apply color tints to images while preserving all details and luminance information. Perfect for theming icons and images dynamically.
 version: 1.0.0
-homepage: https://github.com/yourusername/advanced_image_color
-repository: https://github.com/yourusername/advanced_image_color
-issue_tracker: https://github.com/yourusername/advanced_image_color/issues
+homepage: https://github.com/yourusername/colored_image
+repository: https://github.com/yourusername/colored_image
+issue_tracker: https://github.com/yourusername/colored_image/issues
 
 environment:
   sdk: ^3.10.4

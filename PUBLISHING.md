@@ -82,7 +82,7 @@ Before publishing, update the GitHub repository URL in these files:
 ### Step 2: Create Git Repository (if not already done)
 
 ```bash
-cd /Volumes/UgreenـSSD/personal/package/advanced_image_color
+cd /Volumes/UgreenـSSD/personal/package/colored_image
 git init
 git add .
 git commit -m "Initial commit - v1.0.0"
@@ -91,11 +91,11 @@ git commit -m "Initial commit - v1.0.0"
 ### Step 3: Create GitHub Repository
 
 1. Go to https://github.com/new
-2. Create repository named `advanced_image_color`
+2. Create repository named `colored_image`
 3. Push local repository:
 
 ```bash
-git remote add origin https://github.com/yourusername/advanced_image_color.git
+git remote add origin https://github.com/yourusername/colored_image.git
 git branch -M main
 git push -u origin main
 ```
@@ -105,9 +105,9 @@ git push -u origin main
 After creating the GitHub repository, update `pubspec.yaml`:
 
 ```yaml
-homepage: https://github.com/yourusername/advanced_image_color
-repository: https://github.com/yourusername/advanced_image_color
-issue_tracker: https://github.com/yourusername/advanced_image_color/issues
+homepage: https://github.com/yourusername/colored_image
+repository: https://github.com/yourusername/colored_image
+issue_tracker: https://github.com/yourusername/colored_image/issues
 ```
 
 Commit these changes:
@@ -164,7 +164,7 @@ Follow the prompts:
 
 ### Step 8: Post-Publication
 
-1. Verify package appears on pub.dev: https://pub.dev/packages/advanced_image_color
+1. Verify package appears on pub.dev: https://pub.dev/packages/colored_image
 2. Check package score and suggestions
 3. Update any issues flagged by pub.dev
 4. Create a GitHub release:
@@ -239,10 +239,10 @@ flutter pub publish  # Will trigger login
 ### Issue: Package Name Conflict
 
 **Solution:** Package name must be unique on pub.dev. Check availability:
-https://pub.dev/packages/advanced_image_color
+https://pub.dev/packages/colored_image
 
 If taken, consider alternative names:
-- `advanced_image_colorizer`
+- `colored_imageizer`
 - `flutter_image_color`
 - `detail_preserving_colorizer`
 

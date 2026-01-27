@@ -2,23 +2,23 @@
 
 ## 🎉 Status: PUBLICATION READY
 
-Your **Advanced Image Color** package is now fully prepared for publication to pub.dev!
+Your **Colored Image** package is now fully prepared for publication to pub.dev!
 
 ---
 
 ## 📁 Package Structure
 
 ```
-advanced_image_color/
+colored_image/
 │
 ├── 📚 Core Library
-│   └── lib/advanced_image_color.dart
+│   └── lib/colored_image.dart
 │       ├── buildColorMatrix() function
 │       ├── ColoredImage widget
 │       └── ColorTintFilter widget
 │
 ├── 🧪 Tests
-│   └── test/advanced_image_color_test.dart
+│   └── test/colored_image_test.dart
 │       └── 18 comprehensive tests (all passing)
 │
 ├── 📱 Example App
@@ -79,7 +79,7 @@ advanced_image_color/
 ### 1. Create GitHub Repository
 
 ```bash
-cd /Volumes/UgreenـSSD/personal/package/advanced_image_color
+cd /Volumes/UgreenـSSD/personal/package/colored_image
 
 # Initialize git
 git init
@@ -87,7 +87,7 @@ git add .
 git commit -m "Initial commit - v1.0.0"
 
 # Create repository on GitHub, then:
-git remote add origin https://github.com/YOUR_USERNAME/advanced_image_color.git
+git remote add origin https://github.com/YOUR_USERNAME/colored_image.git
 git branch -M main
 git push -u origin main
 
@@ -365,7 +365,7 @@ After publication, track:
 When you're ready:
 
 ```bash
-cd /Volumes/UgreenـSSD/personal/package/advanced_image_color
+cd /Volumes/UgreenـSSD/personal/package/colored_image
 flutter pub publish
 ```
 
@@ -403,7 +403,7 @@ You've created a **professional, production-ready Flutter package** with:
 
 ```dart
 // Import
-import 'package:advanced_image_color/advanced_image_color.dart';
+import 'package:colored_image/colored_image.dart';
 
 // Use widget
 ColoredImage(color: Colors.blue, child: Image.asset('icon.png'))

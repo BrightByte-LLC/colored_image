@@ -1,6 +1,6 @@
-# Advanced Image Color Example
+# Colored Image Example
 
-This example demonstrates how to use the `advanced_image_color` package to apply color tints to images and icons while preserving all details.
+This example demonstrates how to use the `colored_image` package to apply color tints to images and icons while preserving all details.
 
 ## Running the Example
 
