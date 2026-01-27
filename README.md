@@ -3,24 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/colored_image.svg)](https://pub.dev/packages/colored_image)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A Flutter package for applying color tints to images while **preserving all details and luminance information**. Unlike simple color filters that can wash out details, this package uses advanced color matrix transformations to maintain the original image's brightness and detail structure.
-
-## Features
-
-- 🎨 **Detail-Preserving Colorization** - Maintains luminance and image details while applying color tints
-- 🚀 **High Performance** - Uses efficient color matrix transformations
-- 🎯 **Easy to Use** - Simple widgets and functions with sensible defaults
-- 🔧 **Flexible** - Works with any color and supports custom intensity
-- 📦 **Zero Dependencies** - Only depends on Flutter SDK
-- ♿ **Accessible** - Works seamlessly with Flutter's widget system
-
-## Use Cases
-
-- Dynamic icon theming
-- Applying brand colors to monochrome images
-- Creating color variations of the same image
-- Implementing dark/light theme variations
-- UI element colorization without losing detail
+A Flutter package for applying color tints to images while preserving details. Uses color matrix transformations to maintain the original image's luminance and structure.
 
 ## Installation
 
@@ -137,14 +120,7 @@ class MyApp extends StatelessWidget {
 
 ## How It Works
 
-The package uses a color matrix transformation that:
-
-1. Extracts the luminance (brightness) information from the original image
-2. Applies the target color while preserving the luminance structure
-3. Uses standard perceptual luminance weights (R: 0.299, G: 0.587, B: 0.114)
-4. Applies an intensity multiplier (1.8x) for vivid colors
-
-This approach ensures that all the detail and depth in the original image is maintained, unlike simple overlay or multiply blend modes that can flatten or wash out details.
+The package uses a luminance-preserving color matrix transformation. It extracts the brightness information from the original image and applies the target color while maintaining detail and depth.
 
 ## API Reference
 
@@ -174,12 +150,6 @@ A widget that applies a color tint to any child widget.
 - `color` (required): The color to apply as a tint
 - `child` (required): The widget to apply the color tint to
 
-## Performance Considerations
-
-- Color matrix transformations are hardware-accelerated on most platforms
-- The matrix calculation is lightweight and happens only once per color change
-- No image decoding or processing is required at runtime
-- Suitable for use in animations and dynamic theming
 
 ## Contributing
 
@@ -187,10 +157,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) file for details.
 
-## Support
-
-If you find this package helpful, please give it a ⭐ on [GitHub](https://github.com/yourusername/colored_image)!
-
-For issues, feature requests, or questions, please [open an issue](https://github.com/yourusername/colored_image/issues).
+Copyright (c) 2026 Omar & BrightByte

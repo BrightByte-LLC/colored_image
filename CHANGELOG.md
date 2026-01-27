@@ -1,8 +1,6 @@
 ## 1.0.0
 
-* Initial release of colored_image package
-* Added `buildColorMatrix()` function for creating detail-preserving color matrices
-* Added `ColoredImage` widget for easy image colorization
-* Added `ColorTintFilter` widget for applying color tints to widget trees
-* Comprehensive documentation and examples
-* Full test coverage
+* Initial release
+* `buildColorMatrix()` function for detail-preserving color transformations
+* `ColoredImage` widget for simple image colorization
+* `ColorTintFilter` widget for applying tints to widget trees
