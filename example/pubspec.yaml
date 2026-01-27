@@ -1,0 +1,20 @@
+name: example
+description: Example app for advanced_image_color package
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  advanced_image_color:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

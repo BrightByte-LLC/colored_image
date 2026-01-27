@@ -1,0 +1,17 @@
+# Files to ignore when publishing to pub.dev
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+.idea/
+.vscode/
+*.iml
+.DS_Store
+build/
+example/.dart_tool/
+example/.packages
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/pubspec.lock
+example/build/
