@@ -1,3 +1,8 @@
+## 1.0.6
+
+* Updated demo image
+* Minor documentation improvements
+
 ## 1.0.5
 
 * Added GitHub links for Omar Elmesiry and BrightByte LLC
