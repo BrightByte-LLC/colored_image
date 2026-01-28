@@ -1,3 +1,9 @@
+## 1.1.0
+
+* Added Patreon badge to contact section
+* Enhanced social media presence
+* Improved documentation layout
+
 ## 1.0.6
 
 * Updated demo image
