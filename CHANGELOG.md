@@ -1,3 +1,8 @@
+## 1.0.4
+
+* Added social media links for Omar Elmesiry and BrightByte LLC
+* Enhanced documentation with professional contact badges
+
 ## 1.0.3
 
 * Fixed demo image URL for pub.dev display

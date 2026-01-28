@@ -1,6 +1,6 @@
 name: colored_image
 description: Apply color tints to images while preserving all details and luminance information. Perfect for theming icons and images dynamically.
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/BrightByte/colored_image
 repository: https://github.com/BrightByte/colored_image
 issue_tracker: https://github.com/BrightByte/colored_image/issues
