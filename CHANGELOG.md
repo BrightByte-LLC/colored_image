@@ -1,3 +1,9 @@
+## 1.0.1
+
+* Added package demo showcase image
+* Added Patreon support links for community supporters
+* Updated documentation with visual examples
+
 ## 1.0.0
 
 * Initial release

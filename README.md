@@ -5,6 +5,18 @@
 
 A Flutter package for applying color tints to images while preserving details. Uses color matrix transformations to maintain the original image's luminance and structure.
 
+---
+
+💖 **Support this project on [Patreon](https://patreon.com/OmarElmesiry?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)** - Your support helps me create and maintain open-source packages!
+
+---
+
+## Demo
+
+![Package Demo](post.png)
+
+See how easily you can apply different color tints to images while preserving all the details and depth!
+
 ## Installation
 
 Add this to your package's `pubspec.yaml` file:
@@ -154,6 +166,18 @@ A widget that applies a color tint to any child widget.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+
+If you find this package helpful, please consider supporting its development:
+
+💖 [Become a Patron](https://patreon.com/OmarElmesiry?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+
+Your support helps me:
+- Maintain and improve this package
+- Create new open-source tools for the Flutter community
+- Provide timely support and bug fixes
+- Develop new features based on community feedback
 
 ## License
 
