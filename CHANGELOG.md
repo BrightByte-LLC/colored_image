@@ -1,3 +1,7 @@
+## 1.0.3
+
+* Fixed demo image URL for pub.dev display
+
 ## 1.0.2
 
 * Updated demo showcase image

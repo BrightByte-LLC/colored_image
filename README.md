@@ -13,7 +13,9 @@ A Flutter package for applying color tints to images while preserving details. U
 
 ## Demo
 
-![Package Demo](post.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BrightByte-LLC/colored_image/main/post.png" alt="Package Demo" width="800">
+</p>
 
 See how easily you can apply different color tints to images while preserving all the details and depth!
 
