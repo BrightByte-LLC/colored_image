@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Updated demo showcase image
+
 ## 1.0.1
 
 * Added package demo showcase image
