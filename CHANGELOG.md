@@ -1,6 +1,11 @@
+## 1.0.5
+
+* Added GitHub links for Omar Elmesiry and BrightByte LLC
+* Updated repository URLs to BrightByte-LLC organization
+
 ## 1.0.4
 
-* Added social media links for Omar Elmesiry and BrightByte LLC
+* Added social media links for Omar Elmesiry and BrightByte
 * Enhanced documentation with professional contact badges
 
 ## 1.0.3

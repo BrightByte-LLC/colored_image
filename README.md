@@ -19,7 +19,7 @@ A Flutter package for applying color tints to images while preserving details. U
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-elmesiry-514416176/)
 [![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01eee4c773c5f59af9)
 
-### BrightByte LLC
+### BrightByte
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BrightByte-LLC)
 [![Website](https://img.shields.io/badge/Website-brightbyte.work-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://brightbyte.work)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/brightbyte1/)
